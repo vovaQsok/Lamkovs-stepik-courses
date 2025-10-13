@@ -1,11 +1,11 @@
 @use 'constants' as *;
 @use 'sass:math';
 
-@function fluid($max:100, $min: 10, $isEndOFLaptop: false) {
+@function fluid($max: 100, $min: 10, $isEndOfLaptop: false) {
   $maxViewportWidth: $container-desktop-width;
   $minViewportWidth: 390;
 
-  @if($isEndOFLaptop) {
+  @if ($isEndOfLaptop) {
     $minViewportWidth: $container-laptop-width;
   }
 
@@ -15,15 +15,15 @@
   $minWidth: math.div($minViewportWidth, 16);
 
   $slope: math.div( ($maxSize - $minSize), ($maxWidth - $minWidth) );
-  $yAxisIntersection: -$minWidth * $slope + $minSize;
+  $yAxisIntersections: -$minWidth * $slope + $minSize;
 
   @return clamp(
     #{$minSize * 1rem},
-    #{$yAxisIntersection * 1rem} + #{$slope * 100vw},
-    #{$maxSize * 1 rem}
+    #{$yAxisIntersections * 1rem} + #{$slope * 100vw},
+    #{$maxSize * 1rem}
   );
 }
 
 @function fluid-to-laptop($max:100, $min: 10) {
-  @return fluid($max, $min, true);
+  @return fluid($max, $min, true)
 }
