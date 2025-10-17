@@ -44,7 +44,7 @@
     &-link {
       padding: fluid-to-laptop(14, 12) fluid-to-laptop(24,20);
       color: var(--color-gray-75);
-      border-radius: var(--boreder-redius-s);
+      border-radius: var(--boreder-radius-s);
 
       @include hover {
         color: var(--color-white);
@@ -58,5 +58,11 @@
         pointer-events: none;
       }
     }
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
   }
 }
