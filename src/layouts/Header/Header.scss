@@ -97,7 +97,7 @@
     &-link {
       padding: fluid-to-laptop(14, 12) fluid-to-laptop(24,20);
       color: var(--color-gray-75);
-      border-radius: var(--boreder-radius-s);
+      border-radius: var(--border-radius-s);
 
       @include tablet{
         font-size: 20px;

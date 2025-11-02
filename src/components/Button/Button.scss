@@ -7,12 +7,12 @@
   color: var(--color-white);
   background-color: var(--color-red-45);
   border: none;
-  border-radius: var(--boreder-radius-s);
+  border-radius: var(--border-radius-s);
   user-select: none;
   cursor: pointer;
 
   @include laptop {
-    border-radius: var(--boreder-radius-xs);
+    border-radius: var(--border-radius-xs);
   }
 
   @include hover {
@@ -31,6 +31,8 @@
   }
 
   &:has(.button__icon:only-child) {
+    @include square(fluid-to-laptop(56, 44));
+
     padding: 0;
   }
 
@@ -44,5 +46,10 @@
         --iconSize: #{fluid-to-laptop(34, 24)};
       }
     }
+  }
+
+  &--black-10 {
+    background-color: var(--color-black-10);
+    border: var(--border);
   }
 }
