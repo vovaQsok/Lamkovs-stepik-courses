@@ -41,6 +41,8 @@
     padding-top: fluid-to-laptop(24,20);
     padding-bottom: fluid(50, 20);
 
+
+
     @include  mobile{
       flex-direction: column;
       row-gap: 20px;
