@@ -72,7 +72,7 @@ const Footer = () => {
                 </nav>
                 <div className="footer__extra">
                     <p className="footer__copyright">
-                        @<time dataTime='2023'>2023</time> streamvib, All Rights Reserved
+                        @<time data-time='2023'>2023</time> streamvib, All Rights Reserved
                     </p>
                     <div className="footer__extra-links">
                         {extraLinks.map((link, index) => (
