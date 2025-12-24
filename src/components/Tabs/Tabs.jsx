@@ -41,7 +41,7 @@ const Tabs = (props) => {
                             id={contentId}
                             aria-labelledby={buttonId}
                             tabIndex={0}
-                            data-js-tab-content=""
+                            data-js-tabs-content=""
                             key={index}
                         >
                             {children}
