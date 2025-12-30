@@ -18,7 +18,6 @@ export default function () {8
         <Devices />
         <Questions />
         <Plans />
-        <Banner />
     </>
   )
 }
