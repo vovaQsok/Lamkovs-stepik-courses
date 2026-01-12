@@ -1,0 +1,12 @@
+.collections {
+  &__group {
+    display: grid;
+    row-gap: fluid(100, 75);
+
+    @include mobile-above {
+      padding: fluid-to-laptop(50,40);
+      border: var(--border);
+      border-radius: var(--border-radius-l);
+    }
+  }
+}
