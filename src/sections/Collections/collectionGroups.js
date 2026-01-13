@@ -182,7 +182,7 @@ const collectionGroups = [
                     spaceBetween: 30,
                     breakpoints: {
                         0: {
-                            slidesPerView: 1.6,
+                            slidesPerView: 1.58,
                             slidesPerGroup: 1,
                             spaceBetween: 20,
                             allowTouchMove: true,
@@ -214,6 +214,135 @@ const collectionGroups = [
                     }
                 },
             },
+            {
+                title: 'Trending Now',
+                movieItems: [
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/1.jpg',
+                        duration: '1h 30min',
+                        views: '2K',
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/2.jpg',
+                        duration: '1h 50min',
+                        views: '1.5K',
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/3.jpg',
+                        duration: '2h 10min',
+                        views: '1.8K',
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/4.jpg',
+                        duration: '2h 20min',
+                        views: '3K',
+                    },
+                    {
+                        title: 'Iron Man',
+                        imgSrc: '/src/assets/images/movies/5.jpg',
+                        duration: '1h 42min',
+                        views: '5K',
+                    },
+
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/1.jpg',
+                        duration: '1h 30min',
+                        views: '2K',
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/2.jpg',
+                        duration: '1h 50min',
+                        views: '1.5K',
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/3.jpg',
+                        duration: '2h 10min',
+                        views: '1.8K',
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/4.jpg',
+                        duration: '2h 20min',
+                        views: '3K',
+                    },
+                    {
+                        title: 'Iron Man',
+                        imgSrc: '/src/assets/images/movies/5.jpg',
+                        duration: '1h 42min',
+                        views: '5K',
+                    },
+
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/1.jpg',
+                        duration: '1h 30min',
+                        views: '2K',
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/2.jpg',
+                        duration: '1h 50min',
+                        views: '1.5K',
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/3.jpg',
+                        duration: '2h 10min',
+                        views: '1.8K',
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/4.jpg',
+                        duration: '2h 20min',
+                        views: '3K',
+                    },
+                    {
+                        title: 'Iron Man',
+                        imgSrc: '/src/assets/images/movies/5.jpg',
+                        duration: '1h 42min',
+                        views: '5K',
+                    },
+
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/1.jpg',
+                        duration: '1h 30min',
+                        views: '2K',
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/2.jpg',
+                        duration: '1h 50min',
+                        views: '1.5K',
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/3.jpg',
+                        duration: '2h 10min',
+                        views: '1.8K',
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/4.jpg',
+                        duration: '2h 20min',
+                        views: '3K',
+                    },
+                    {
+                        title: 'Iron Man',
+                        imgSrc: '/src/assets/images/movies/5.jpg',
+                        duration: '1h 42min',
+                        views: '5K',
+                    },
+
+                ],
+            }
         ]
     }
 ]

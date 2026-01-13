@@ -1,4 +1,4 @@
-import './MooviesBanner.scss'
+import './MoviesBanner.scss'
 import Slider from "@/components/Slider";
 import MovieBannerCard from "@/components/MovieBannerCard";
 
@@ -27,7 +27,7 @@ const MoviesBanner = () => {
 
     return (
         <section
-            className="movie-banner container"
+            className="movies-banner container"
             aria-labelledby={titleId}
         >
             <h1 className="visually-hidden" id={titleId}>

@@ -17,7 +17,7 @@ const Collections = () => {
                 isActive: collectionGroup.isActive,
                 title: collectionGroup.title,
                 children: (
-                    <div className="collection__group">
+                    <div className="collections__group">
                         <p className="collections__title hidden-mobile">
                             {collectionGroup.title}
                         </p>
