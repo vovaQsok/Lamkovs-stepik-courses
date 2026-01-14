@@ -342,7 +342,366 @@ const collectionGroups = [
                     },
 
                 ],
-            }
+            },
+            {
+                title: 'New Releases',
+                movieItems: [
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/6.jpg',
+                        released: {
+                            label: '14 April 2023',
+                            dateTime: '2023-04-14',
+                        }
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/7.jpg',
+                        released: {
+                            label: '14 April 2023',
+                            dateTime: '2023-04-14',
+                        }
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/8.jpg',
+                        released: {
+                            label: '14 April 2023',
+                            dateTime: '2023-04-14',
+                        }
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/9.jpg',
+                        released: {
+                            label: '14 April 2023',
+                            dateTime: '2023-04-14',
+                        }
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/10.jpg',
+                        released: {
+                            label: '14 April 2023',
+                            dateTime: '2023-04-14',
+                        }
+                    },
+
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/6.jpg',
+                        released: {
+                            label: '14 April 2023',
+                            dateTime: '2023-04-14',
+                        }
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/7.jpg',
+                        released: {
+                            label: '14 April 2023',
+                            dateTime: '2023-04-14',
+                        }
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/8.jpg',
+                        released: {
+                            label: '14 April 2023',
+                            dateTime: '2023-04-14',
+                        }
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/9.jpg',
+                        released: {
+                            label: '14 April 2023',
+                            dateTime: '2023-04-14',
+                        }
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/10.jpg',
+                        released: {
+                            label: '14 April 2023',
+                            dateTime: '2023-04-14',
+                        }
+                    },
+
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/6.jpg',
+                        released: {
+                            label: '14 April 2023',
+                            dateTime: '2023-04-14',
+                        }
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/7.jpg',
+                        released: {
+                            label: '14 April 2023',
+                            dateTime: '2023-04-14',
+                        }
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/8.jpg',
+                        released: {
+                            label: '14 April 2023',
+                            dateTime: '2023-04-14',
+                        }
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/9.jpg',
+                        released: {
+                            label: '14 April 2023',
+                            dateTime: '2023-04-14',
+                        }
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/10.jpg',
+                        released: {
+                            label: '14 April 2023',
+                            dateTime: '2023-04-14',
+                        }
+                    },
+
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/6.jpg',
+                        released: {
+                            label: '14 April 2023',
+                            dateTime: '2023-04-14',
+                        }
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/7.jpg',
+                        released: {
+                            label: '14 April 2023',
+                            dateTime: '2023-04-14',
+                        }
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/8.jpg',
+                        released: {
+                            label: '14 April 2023',
+                            dateTime: '2023-04-14',
+                        }
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/9.jpg',
+                        released: {
+                            label: '14 April 2023',
+                            dateTime: '2023-04-14',
+                        }
+                    },
+                    {
+                        title: 'Morbius',
+                        imgSrc: '/src/assets/images/movies/10.jpg',
+                        released: {
+                            label: '14 April 2023',
+                            dateTime: '2023-04-14',
+                        }
+                    },
+
+                ],
+            },
+
+            {
+                title: 'Must - Watch Movies',
+                movieItems: [
+                    {
+                        title: 'Kantara',
+                        imgSrc: '/src/assets/images/movies/11.jpg',
+                        duration: '1h 57min',
+                        rating: {
+                            value: 4.5,
+                            label: '20K',
+                        },
+                    },
+                    {
+                        title: 'Pushpa 2',
+                        imgSrc: '/src/assets/images/movies/12.jpg',
+                        duration: '1h 57min',
+                        rating: {
+                            value: 4,
+                            label: '20K',
+                        },
+                    },
+                    {
+                        title: 'Blade Runner 2049',
+                        imgSrc: '/src/assets/images/movies/13.jpg',
+                        duration: '1h 42min',
+                        rating: {
+                            value: 4.5,
+                            label: '20K',
+                        },
+                    },
+                    {
+                        title: 'Kantara',
+                        imgSrc: '/src/assets/images/movies/14.jpg',
+                        duration: '2h 10min',
+                        rating: {
+                            value: 4,
+                            label: '20K',
+                        },
+                    },
+
+                    {
+                        title: 'Kantara',
+                        imgSrc: '/src/assets/images/movies/11.jpg',
+                        duration: '1h 57min',
+                        rating: {
+                            value: 4.5,
+                            label: '20K',
+                        },
+                    },
+                    {
+                        title: 'Pushpa 2',
+                        imgSrc: '/src/assets/images/movies/12.jpg',
+                        duration: '1h 57min',
+                        rating: {
+                            value: 4,
+                            label: '20K',
+                        },
+                    },
+                    {
+                        title: 'Blade Runner 2049',
+                        imgSrc: '/src/assets/images/movies/13.jpg',
+                        duration: '1h 42min',
+                        rating: {
+                            value: 4.5,
+                            label: '20K',
+                        },
+                    },
+                    {
+                        title: 'Kantara',
+                        imgSrc: '/src/assets/images/movies/14.jpg',
+                        duration: '2h 10min',
+                        rating: {
+                            value: 4,
+                            label: '20K',
+                        },
+                    },
+
+                    {
+                        title: 'Kantara',
+                        imgSrc: '/src/assets/images/movies/11.jpg',
+                        duration: '1h 57min',
+                        rating: {
+                            value: 4.5,
+                            label: '20K',
+                        },
+                    },
+                    {
+                        title: 'Pushpa 2',
+                        imgSrc: '/src/assets/images/movies/12.jpg',
+                        duration: '1h 57min',
+                        rating: {
+                            value: 4,
+                            label: '20K',
+                        },
+                    },
+                    {
+                        title: 'Blade Runner 2049',
+                        imgSrc: '/src/assets/images/movies/13.jpg',
+                        duration: '1h 42min',
+                        rating: {
+                            value: 4.5,
+                            label: '20K',
+                        },
+                    },
+                    {
+                        title: 'Kantara',
+                        imgSrc: '/src/assets/images/movies/14.jpg',
+                        duration: '2h 10min',
+                        rating: {
+                            value: 4,
+                            label: '20K',
+                        },
+                    },
+
+                    {
+                        title: 'Kantara',
+                        imgSrc: '/src/assets/images/movies/11.jpg',
+                        duration: '1h 57min',
+                        rating: {
+                            value: 4.5,
+                            label: '20K',
+                        },
+                    },
+                    {
+                        title: 'Pushpa 2',
+                        imgSrc: '/src/assets/images/movies/12.jpg',
+                        duration: '1h 57min',
+                        rating: {
+                            value: 4,
+                            label: '20K',
+                        },
+                    },
+                    {
+                        title: 'Blade Runner 2049',
+                        imgSrc: '/src/assets/images/movies/13.jpg',
+                        duration: '1h 42min',
+                        rating: {
+                            value: 4.5,
+                            label: '20K',
+                        },
+                    },
+                    {
+                        title: 'Kantara',
+                        imgSrc: '/src/assets/images/movies/14.jpg',
+                        duration: '2h 10min',
+                        rating: {
+                            value: 4,
+                            label: '20K',
+                        },
+                    },
+                ],
+                sliderParams: {
+                    slidesPerView: 4,
+                    slidesPerGroup: 4,
+                    spaceBetween: 30,
+                    breakpoints: {
+                        0: {
+                            slidesPerView: 1.58,
+                            slidesPerGroup: 1,
+                            spaceBetween: 20,
+                            allowTouchMove: true,
+                        },
+                        481: {
+                            slidesPerView: 2,
+                            slidesPerGroup: 2,
+                            spaceBetween: 20,
+                            allowTouchMove: true,
+                        },
+                        768: {
+                            slidesPerView: 3,
+                            slidesPerGroup: 3,
+                            spaceBetween: 20,
+                            allowTouchMove: true,
+                        },
+                        1024: {
+                            slidesPerView: 4,
+                            slidesPerGroup: 4,
+                            spaceBetween: 20,
+                            allowTouchMove: false,
+                        },
+                        1441: {
+                            slidesPerView: 4,
+                            slidesPerGroup: 4,
+                            spaceBetween: 30,
+                            allowTouchMove: false,
+                        },
+                    }
+                },
+            },
         ]
     }
 ]
