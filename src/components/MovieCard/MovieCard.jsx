@@ -8,6 +8,7 @@ const MovieCard = (props) => {
         title,
         imgSrc,
         duration,
+        season,
         views,
         released,
         href = '/movie',
@@ -36,6 +37,15 @@ const MovieCard = (props) => {
                     </Badge>
                 )}
 
+                {season && (
+                    <Badge
+                        iconName="catalog"
+                        hasFillIcon
+                    >
+                        {season}
+                    </Badge>
+                )}
+
                 {rating && (
                     <Badge className="movie-card__rating-badge"
                     >
@@ -54,7 +64,7 @@ const MovieCard = (props) => {
                 )}
 
                 {released && (
-                    <Badge className="movie-card__realised-badge"
+                    <Badge className="movie-card__released-badge"
                     >
                         Released at <time className="movie-card__released-badge-label" dateTime={released.dateTime}>{released.label}</time>
                     </Badge>
