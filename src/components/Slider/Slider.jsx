@@ -1,6 +1,5 @@
 import 'swiper/css';
 import './Slider.scss'
-import className from 'classnames'
 import SliderNavigation from "@/components/Slider/components/SliderNavigation";
 import classNames from "classnames";
 
@@ -53,6 +52,7 @@ const Slider = (props) => {
          * ''(default) | 'abs-bottom'
          */
         navigationPosition = '',
+        navigationMode,
         isNavigationHiddenMobile = true,
     } = props
 
@@ -81,6 +81,7 @@ const Slider = (props) => {
             {!navigationTargetElementId && (
                 <SliderNavigation
                     className='slider__navigation'
+                    mode={navigationMode}
                     position={navigationPosition}
                     isHiddenMobile={isNavigationHiddenMobile}
                 />
