@@ -109,7 +109,7 @@ const MovieDetails = () => {
                 Detailed movie information
             </h2>
             <div className="movie-details__main">
-                <div className="movie-details__panel">
+                <div className="movie-details__panel movie-details__panel--description">
                     <div className="movie-details__group">
                         <h3 className="movie-details__title">
                             Description
@@ -128,8 +128,8 @@ const MovieDetails = () => {
                         <SliderNavigation
                             id={castSliderNavigationId}
                             hasPagination={false}
-                            mode="rounded"
-                            buttonMode = "black-08"
+                            mode='rounded'
+                            buttonMode = 'black-08'
                         />
                     </header>
                     <Slider
@@ -153,7 +153,7 @@ const MovieDetails = () => {
                     </Slider>
                 </div>
 
-                <div className="movie-details__panel">
+                <div className="movie-details__panel movie-details__panel--large-gap-y">
                     <header className="movie-details__panel-header">
                         <h3 className="movie-details__title">
                             Reviews
@@ -166,7 +166,7 @@ const MovieDetails = () => {
                         />
                     </header>
                     <Slider
-                        naligationMode="rounded"
+                        navigationMode="rounded"
                         isNavigationHiddenMobile={false}
                         hasScrollbarOnMobile={false}
                         sliderParams={{
@@ -194,7 +194,7 @@ const MovieDetails = () => {
                     </Slider>
                 </div>
             </div>
-            <aside className="movie-detail__info">
+            <aside className="movie-details__info">
                 <div className="movie-details__panel">
                     <div className="movie-details__groups">
                         <div className="movie-details__group">
@@ -248,7 +248,7 @@ const MovieDetails = () => {
                             <PersonCard
                                 name="Rishab Shetty"
                                 subtitle="From India"
-                                imgSrc="/src/assets/images/people/directior.jpg"
+                                imgSrc="/src/assets/images/people/director.jpg"
                             />
                         </div>
 
