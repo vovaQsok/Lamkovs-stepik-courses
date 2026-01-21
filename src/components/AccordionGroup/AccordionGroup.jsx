@@ -1,10 +1,12 @@
 import './AccordionGroup.scss'
 import classNames from 'classnames'
-import accordionGroup from "@/components/AccordionGroup/index";
 
 const AccordionGroup = (props) => {
     const {
-        className,
+        /**
+         * '' (default) | 'dark'
+         */
+        mode= '',
         columns = 1,
         children,
         isOrderedList = true,
@@ -19,6 +21,7 @@ const AccordionGroup = (props) => {
             className={classNames('accordion-group', {
                 [`accordion-group--${columns}-columns`]: columns > 1,
                 'accordion-group--has-counter': isOrderedList,
+                [`accordion-group--${mode}`]: mode,
             })}
         >
             {children.map((child, index) => (
