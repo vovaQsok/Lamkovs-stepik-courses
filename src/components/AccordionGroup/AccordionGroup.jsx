@@ -3,6 +3,7 @@ import classNames from 'classnames'
 
 const AccordionGroup = (props) => {
     const {
+        className,
         /**
          * '' (default) | 'dark'
          */
@@ -18,7 +19,7 @@ const AccordionGroup = (props) => {
 
     return (
         <ListTag
-            className={classNames('accordion-group', {
+            className={classNames(className, 'accordion-group', {
                 [`accordion-group--${columns}-columns`]: columns > 1,
                 'accordion-group--has-counter': isOrderedList,
                 [`accordion-group--${mode}`]: mode,
