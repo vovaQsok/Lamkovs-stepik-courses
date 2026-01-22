@@ -4,7 +4,7 @@ const seasonItems = [
         subtitle: "9 Episodes",
         episodes: [
             {
-                number: "01",
+                number: "00",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
@@ -13,7 +13,7 @@ const seasonItems = [
                 }
             },
             {
-                number: "02",
+                number: "01",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
@@ -22,7 +22,7 @@ const seasonItems = [
                 }
             },
             {
-                number: "03",
+                number: "02",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
@@ -31,7 +31,7 @@ const seasonItems = [
                 }
             },
             {
-                number: "04",
+                number: "03",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
@@ -40,7 +40,7 @@ const seasonItems = [
                 }
             },
             {
-                number: "05",
+                number: "04",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
@@ -49,7 +49,7 @@ const seasonItems = [
                 }
             },
             {
-                number: "01",
+                number: "05",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
@@ -58,7 +58,7 @@ const seasonItems = [
                 }
             },
             {
-                number: "02",
+                number: "06",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
@@ -67,7 +67,7 @@ const seasonItems = [
                 }
             },
             {
-                number: "03",
+                number: "07",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
@@ -76,7 +76,7 @@ const seasonItems = [
                 }
             },
             {
-                number: "04",
+                number: "08",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
@@ -85,7 +85,7 @@ const seasonItems = [
                 }
             },
             {
-                number: "05",
+                number: "09",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
@@ -94,7 +94,7 @@ const seasonItems = [
                 }
             },
             {
-                number: "01",
+                number: "10",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
@@ -103,7 +103,7 @@ const seasonItems = [
                 }
             },
             {
-                number: "02",
+                number: "11",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {

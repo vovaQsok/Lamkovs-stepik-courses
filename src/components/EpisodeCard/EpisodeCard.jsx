@@ -39,8 +39,10 @@ const EpisodeCard = (props) => {
             <div className="episode-card__body">
                 <div className="episode-card__info">
                     <h4 className="episode-card__title h6">{title}</h4>
-                    <Icon name="clock_stroke" ariaLabel="Duration"/>
-                    <span>{duration}</span>
+                    <div className="episode-card__duration">
+                        <Icon name="clock_stroke" ariaLabel="Duration"/>
+                        <span>{duration}</span>
+                    </div>
                 </div>
                 <div className="episode-card__description hidden-mobile">
                     <p>{description}</p>
