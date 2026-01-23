@@ -31,7 +31,7 @@ class VideoPlayer {
     }
 
     onVideoFullScreenChange= () => {
-        const isFullScreenEnabled = document.fullscreenlElement === this.videoElement
+        const isFullScreenEnabled = document.fullscreenElement === this.videoElement
 
         if(!isFullScreenEnabled) {
             this.videoElement.pause()
