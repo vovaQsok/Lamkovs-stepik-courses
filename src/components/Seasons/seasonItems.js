@@ -4,112 +4,112 @@ const seasonItems = [
         subtitle: "9 Episodes",
         episodes: [
             {
-                number: "00",
-                title: "Chapter One: The Vanishing of Will Byers",
-                duration: "49m",
-                video: {
-                    src: '/videos/example-video.mp4',
-                    poster: '/video_posters/1.jpg',
-                }
-            },
-            {
                 number: "01",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
-                    poster: '/video_posters/2.jpg',
-                }
+                    src: '/videos/example.mp4',
+                    poster: '/video_posters/1.jpg',
+                },
             },
             {
                 number: "02",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
-                    poster: '/video_posters/3.jpg',
-                }
+                    src: '/videos/example.mp4',
+                    poster: '/video_posters/2.jpg',
+                },
             },
             {
                 number: "03",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
-                    poster: '/video_posters/4.jpg',
-                }
+                    src: '/videos/example.mp4',
+                    poster: '/video_posters/3.jpg',
+                },
             },
             {
                 number: "04",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
-                    poster: '/video_posters/5.jpg',
-                }
+                    src: '/videos/example.mp4',
+                    poster: '/video_posters/4.jpg',
+                },
             },
             {
                 number: "05",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
-                    poster: '/video_posters/1.jpg',
-                }
+                    src: '/videos/example.mp4',
+                    poster: '/video_posters/5.jpg',
+                },
             },
             {
                 number: "06",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
-                    poster: '/video_posters/2.jpg',
-                }
+                    src: '/videos/example.mp4',
+                    poster: '/video_posters/1.jpg',
+                },
             },
             {
                 number: "07",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
-                    poster: '/video_posters/3.jpg',
-                }
+                    src: '/videos/example.mp4',
+                    poster: '/video_posters/2.jpg',
+                },
             },
             {
                 number: "08",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
-                    poster: '/video_posters/4.jpg',
-                }
+                    src: '/videos/example.mp4',
+                    poster: '/video_posters/3.jpg',
+                },
             },
             {
                 number: "09",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
-                    poster: '/video_posters/5.jpg',
-                }
+                    src: '/videos/example.mp4',
+                    poster: '/video_posters/4.jpg',
+                },
             },
             {
                 number: "10",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
-                    poster: '/video_posters/1.jpg',
-                }
+                    src: '/videos/example.mp4',
+                    poster: '/video_posters/5.jpg',
+                },
             },
             {
                 number: "11",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
+                    poster: '/video_posters/1.jpg',
+                },
+            },
+            {
+                number: "12",
+                title: "Chapter One: The Vanishing of Will Byers",
+                duration: "49m",
+                video: {
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/2.jpg',
-                }
+                },
             },
         ],
     },
@@ -122,222 +122,222 @@ const seasonItems = [
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/1.jpg',
-                }
+                },
             },
             {
                 number: "02",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/2.jpg',
-                }
+                },
             },
             {
                 number: "03",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/3.jpg',
-                }
+                },
             },
             {
                 number: "04",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/4.jpg',
-                }
+                },
             },
             {
                 number: "05",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/5.jpg',
-                }
+                },
             },
             {
-                number: "01",
+                number: "06",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/1.jpg',
-                }
+                },
             },
             {
-                number: "02",
+                number: "07",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/2.jpg',
-                }
+                },
             },
             {
-                number: "03",
+                number: "08",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/3.jpg',
-                }
+                },
             },
             {
-                number: "04",
+                number: "09",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/4.jpg',
-                }
+                },
             },
             {
-                number: "05",
+                number: "10",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/5.jpg',
-                }
+                },
             },
             {
-                number: "01",
+                number: "11",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/1.jpg',
-                }
+                },
             },
             {
-                number: "02",
+                number: "12",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/2.jpg',
-                }
+                },
             },
         ],
     },
     {
         title: "Season 03",
-        subtitle: "4 Episodes",
+        subtitle: "9 Episodes",
         episodes: [
             {
                 number: "01",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/1.jpg',
-                }
+                },
             },
             {
                 number: "02",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/2.jpg',
-                }
+                },
             },
             {
                 number: "03",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/3.jpg',
-                }
+                },
             },
             {
                 number: "04",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/4.jpg',
-                }
+                },
             },
             {
                 number: "05",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/5.jpg',
-                }
+                },
             },
             {
-                number: "01",
+                number: "06",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/1.jpg',
-                }
+                },
             },
             {
-                number: "02",
+                number: "07",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/2.jpg',
-                }
+                },
             },
             {
-                number: "03",
+                number: "08",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/3.jpg',
-                }
+                },
             },
             {
-                number: "04",
+                number: "09",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/4.jpg',
-                }
+                },
             },
             {
-                number: "05",
+                number: "10",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/5.jpg',
-                }
+                },
             },
             {
-                number: "01",
+                number: "11",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/1.jpg',
-                }
+                },
             },
             {
-                number: "02",
+                number: "12",
                 title: "Chapter One: The Vanishing of Will Byers",
                 duration: "49m",
                 video: {
-                    src: '/videos/example-video.mp4',
+                    src: '/videos/example.mp4',
                     poster: '/video_posters/2.jpg',
-                }
+                },
             },
         ],
     },
