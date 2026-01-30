@@ -76,7 +76,7 @@ const Select = (props) => {
                         const {
                             value,
                             isSelected = false,
-                        } = options
+                        } = option
 
                         return (
                             <div
